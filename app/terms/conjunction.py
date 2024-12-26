@@ -3,7 +3,6 @@ from .implication import Arrow
 from .negation import Not
 from app.utils import is_var_or_unary_operator
 
-
 class And(BinaryOperator):
     _symbol = '*'
 

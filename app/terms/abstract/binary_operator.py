@@ -2,7 +2,6 @@ from .term import Term
 from .operator import Operator
 from app.utils import is_var_or_unary_operator
 
-
 class BinaryOperator(Operator):
     _symbol: str
 

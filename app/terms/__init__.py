@@ -9,7 +9,6 @@ from .disjunction import Or
 from .equivalence import Equal
 from .exclusive_disjunction import Xor
 
-
 __all__ = [
     'Term',
     'Var',

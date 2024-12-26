@@ -3,7 +3,6 @@ from typing import Optional, Sequence
 from ordered_set import OrderedSet
 from string import ascii_uppercase
 
-
 class Term(ABC):
     """Term interface (abstract class) for all logic expressions"""
 

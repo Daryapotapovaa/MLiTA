@@ -1,7 +1,6 @@
 from app.terms.abstract.term import Term
 from .operator import Operator
 
-
 class UnaryOperator(Operator):
     def __init__(self, arg: Term) -> None:
         super().__init__(arg)

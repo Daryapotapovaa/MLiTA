@@ -4,7 +4,6 @@ from ordered_set import OrderedSet
 from string import ascii_uppercase
 from typing import Optional, Sequence
 
-
 class Var(Term):
     """Boolean variable class"""
 

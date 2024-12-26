@@ -1,7 +1,6 @@
 from .abstract import BinaryOperator
 from app.utils.is_var_or_unary_operator import is_var_or_unary_operator
 
-
 class Arrow(BinaryOperator):
     _symbol = '>'
 

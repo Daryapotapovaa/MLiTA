@@ -6,7 +6,6 @@ from typing import Optional, Sequence
 from .term import Term
 from app.terms.variable import Var
 
-
 class TermList(UserList[Term]):
     def humanize(self) -> list[str]:
         """String in russian language"""
