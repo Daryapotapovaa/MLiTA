@@ -1,5 +1,6 @@
 from app.terms import Arrow, Not, Var
 
+
 A = Var('A')
 B = Var('B')
 C = Var('C')

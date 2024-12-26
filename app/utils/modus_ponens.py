@@ -4,7 +4,6 @@ from string import ascii_lowercase, ascii_uppercase
 
 SYLLOGISM_NAME = 'modus ponens'
 
-
 def modus_ponens(
     *args: ModusPonensResult,
 ) -> list[ModusPonensResult]:

@@ -1,6 +1,7 @@
 from collections import deque
 from typing import Optional
 
+
 # from sortedcontainers import SortedSet
 from app.utils.syllogism_result import SyllogismResult, ModusPonensResult
 from app.utils.modus_ponens import modus_ponens

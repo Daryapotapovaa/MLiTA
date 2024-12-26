@@ -3,7 +3,6 @@ from typing import Optional
 from dataclasses import dataclass, field
 from app.utils import is_var_or_unary_operator
 
-
 def bracked_term(term: Term):
     if is_var_or_unary_operator(term):
         return str(term)

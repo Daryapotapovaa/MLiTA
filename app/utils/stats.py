@@ -1,6 +1,7 @@
 from app.utils.syllogism_result import SyllogismResult
 
 
+
 def count_non_trivial_syllogisms(syllogism_list: list[SyllogismResult]) -> int:
     all_syllogisms_count = len(syllogism_list)
     trivial_syllogisms = set(['axiom', 'substitute'])

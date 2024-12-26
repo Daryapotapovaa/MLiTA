@@ -1,6 +1,5 @@
 from app.utils.syllogism_result import SyllogismResult
 
-
 def pretty(syllogism_list: list[SyllogismResult]) -> str:
     result_strings = []
 

@@ -12,7 +12,6 @@ from .terms import (
     Equal,
 )
 
-
 precedence = {
     '!': 4,
     '*': 3,
