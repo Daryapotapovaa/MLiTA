@@ -3,6 +3,7 @@ from app.parser import parse
 from app.terms import And, Arrow, Not, Or, Var, Xor, Equal
 
 
+
 def test_order():
     assert str(Or(Var('a'), Var('b'))) == str(parse('a|b'))
     assert str(Or(Var('a'), Var('b'))) != str(parse('b|a'))

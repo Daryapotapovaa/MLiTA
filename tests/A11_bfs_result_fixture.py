@@ -3,6 +3,7 @@ from app.terms import Arrow, Var, Not
 from app.utils.syllogism_result import SyllogismResult
 
 
+
 @pytest.fixture()
 def A11_bfs_result():
     return [

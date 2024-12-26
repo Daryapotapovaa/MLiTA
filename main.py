@@ -6,6 +6,7 @@ from app.utils.stats import get_stats_str
 import time
 
 
+
 def main():
     user_input = input('Введите выражение: ')
     start_time = time.perf_counter()

@@ -1,6 +1,7 @@
 from app.syllologism_pretty_print import pretty
 
 
+
 def test_pretty_AA(AA_bfs_result):
     pretty_result = pretty(AA_bfs_result)
     s = """\

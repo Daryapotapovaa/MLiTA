@@ -2,6 +2,7 @@ import pytest
 from app.terms import Var, Arrow, Not, And, Or
 from app.bfs import bfs
 
+
 A = Var('a')
 B = Var('b')
 C = Var('c')
