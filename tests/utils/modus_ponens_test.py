@@ -6,6 +6,7 @@ from app.utils.modus_ponens import modus_ponens
 from app.utils.syllogism_result import SyllogismResult
 
 
+
 def create_axiom(axiom: Term):
     return SyllogismResult(
         syllogism_name='axiom',

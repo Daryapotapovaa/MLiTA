@@ -3,6 +3,7 @@ import pytest
 from copy import copy, deepcopy
 
 
+
 def test_initialization():
     v = Var('A')
     assert v.name == 'A'

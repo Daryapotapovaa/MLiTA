@@ -1,6 +1,7 @@
 from app.terms import Not, Var, Or
 
 
+
 def test_str():
     assert str(Not(Var('A'))) == '!A'
 

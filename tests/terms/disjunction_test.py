@@ -1,6 +1,7 @@
 from app.terms import Or, Var, Not
 
 
+
 def test_str():
     assert str(Or(Var('A'), Var('B'))) == 'A | B'
 

@@ -1,6 +1,7 @@
 from app.terms import Equal, Var, Not
 
 
+
 def test_str():
     assert str(Equal(Var('A'), Var('B'))) == 'A = B'
 

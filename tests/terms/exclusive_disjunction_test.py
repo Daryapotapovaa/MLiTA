@@ -1,6 +1,7 @@
 from app.terms import Xor, Var, Not
 
 
+
 def test_str():
     assert str(Xor(Var('A'), Var('B'))) == 'A + B'
 

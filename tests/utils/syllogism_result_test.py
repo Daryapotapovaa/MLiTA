@@ -2,6 +2,7 @@ import pytest
 from app.utils.modus_ponens import modus_ponens
 from app.terms import Var, Arrow, Or
 
+
 MODUS_PONENS_EXAMPLE_RES = """modus ponens
 \t(A > B) > A при подстановке A: (a | b), B: c;
 \t(a | b) > c
